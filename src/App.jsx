@@ -171,13 +171,26 @@ export default function Portfolio() {
       <section id="home" className="relative z-10 pt-20 pb-16 min-h-screen flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
+
             <div className="mb-8">
+
               <div className="relative w-40 h-40 mx-auto mb-8">
+
+                <img
+    src="/123.jpg"  // <-- Replace with actual path or URL
+    alt="Saurabh Sharma"
+    className="w-full r h-full object-cover rounded-full"
+  />
+</div>
+
+                {/* <div className="relative w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden border-4 border-purple-500/40 shadow-lg shadow-purple-500/20">
+  
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 rounded-full animate-spin-slow"></div>
-                <div className="absolute inset-2 bg-gray-900 rounded-full flex items-center justify-center">
+                {/* <div className="absolute inset-2 bg-gray-900 rounded-full flex items-center justify-center">
                   <span className="text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">SS</span>
-                </div>
-              </div>
+                </div>  */}
+
+              {/* </div> */}
             </div>
             
             <div className="space-y-6">
